@@ -1,4 +1,4 @@
-ARG PY_VERSION=3.9
+ARG PY_VERSION=3.9-slim
 
 FROM python:${PY_VERSION} as base
 MAINTAINER nicolas.laurance@gmail.com
